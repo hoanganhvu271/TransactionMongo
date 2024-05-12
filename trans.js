@@ -12,7 +12,7 @@ async function main() {
     session.startTransaction()
 
     try {
-        const opts = { session, returnOriginal: true }
+        const opts = { session }
         const opts2 = { session, returnDocument: 'after' }
 
         //query1
